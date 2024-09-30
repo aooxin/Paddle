@@ -606,6 +606,7 @@ const std::vector<std::string> kPirGpuPasses{
     "remove_redundant_transpose_pass",
     "transfer_layout_pass",
     "horizontal_fuse_pass",
+    "identity_op_clean_pass",
 };
 
 const std::vector<std::string> kPirXpuPasses{
